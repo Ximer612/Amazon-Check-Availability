@@ -1,5 +1,4 @@
 import schedule
-from time import sleep
 import telegram
 import amazon
 
