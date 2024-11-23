@@ -1,5 +1,6 @@
 ## Shipping via Amazon checker
-A simple python script to check if an Amazon product is being sold by Amazon itself and send a Telegram message when it is.
+A simple python script to check if an Amazon product is being sold by Amazon itself and send a notify on Telegram by a bot message.
+
 ## How to run it?
 Before install all requirements to run this program by doing:
 ```python

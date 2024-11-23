@@ -18,7 +18,7 @@ def check(AMAZON_PRODUCT_LINK,BOT_TOKEN,BOT_CHATID):
     item_name = str(soup_item_name.contents[0]).strip()
 
     if  seller_name == 'None' or seller_name is None or seller_name == "Amazon":
-        bot_send_text(item_name+" is now shipped by amazon!",BOT_TOKEN,BOT_CHATID)
-        print("\x1b[42m"+ "Product is now shipped by amazon!"+ "\x1b[0m")
+        bot_send_text(item_name+" is now sold by amazon!",BOT_TOKEN,BOT_CHATID)
+        print("\x1b[42m"+ "Product is now sold by amazon!"+ "\x1b[0m")
     else:
-        print("\x1b[41m"+"Product is shipped by "+soup_seller_name.next+ "!\x1b[0m")
+        print("\x1b[41m"+"Product is sold by "+soup_seller_name.next+ "!\x1b[0m")
